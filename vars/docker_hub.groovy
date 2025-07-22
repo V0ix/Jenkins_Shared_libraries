@@ -1,4 +1,4 @@
-def docker(){
+def call(){
   echo 'pushing the image to Docker Hub'
                 withCredentials([usernamePassword(credentialsId: 'docker-hub-creds', 
                                   usernameVariable: 'DOCKER_USER', 
